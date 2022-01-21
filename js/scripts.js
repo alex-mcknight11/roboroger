@@ -17,8 +17,11 @@ function checkForMatch(number) {
 		} else if (element.includes('3')) {
 			console.log("Won't you be my neighbor?");
 			numberArray.push("Won't you be my neighbor?");
+		} else {
+			numberArray.push(element);
 		}
 	}
+	return numberArray;
 }
 
 //UI LOGIC
@@ -26,6 +29,6 @@ $(document).ready(function () {
 	$('form').submit(function (event) {
 		event.preventDefault();
 		let numberSubmission = parseInt($('#inputField').val(), 10);
-		checkForMatch(numberSubmission);
+		console.log(checkForMatch(numberSubmission));
 	});
 });
