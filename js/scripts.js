@@ -4,10 +4,8 @@ let boopInput = '2';
 let neighborInput = '3';
 let numberArray = [];
 
-var numberSubmission = parseInt($('inputField').val());
-
 function checkForMatch(numbers) {
-	for (let i = 0; (inputField) => i; i++) {
+	for (let i = 0; numberSubmission >= i; i++) {
 		const element = i.toString();
 		if (numbers.includes('1')) {
 			numberArray.push('Beep!');
@@ -24,7 +22,8 @@ function checkForMatch(numbers) {
 
 //UI LOGIC
 $(document).ready(function () {
-	$('form#inputField').submit(function (event) {
+	$('form').submit(function (event) {
 		event.preventDefault();
+		let numberSubmission = parseInt($('inputField').val(), 10);
 	});
 });
