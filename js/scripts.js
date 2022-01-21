@@ -21,3 +21,10 @@ function checkForMatch(numbers) {
 		}
 	}
 }
+
+//UI LOGIC
+$(document).ready(function () {
+	$('form#inputField').submit(function (event) {
+		event.preventDefault();
+	});
+});
