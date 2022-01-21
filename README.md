@@ -25,8 +25,11 @@ _A project from Epicodus used to test different number inputs to give a differen
 
 ## Tests
 
-Test: "It Should return "Beep!" if a 1 is read
-Code:
+Test: It Should return "Beep!" if a 1 is read on input
+
+Test: It should return "Boop" if a 2 is read on input
+
+Test: It should return a "Won't you be my neighbor?" if a 3 is read on input
 
 ## Known Bugs
 
