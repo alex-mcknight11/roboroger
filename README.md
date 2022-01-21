@@ -25,7 +25,8 @@ _A project from Epicodus used to test different number inputs to give a differen
 
 ## Tests
 
--
+Test: "It Should return "Beep!" if a 1 is read
+Code:
 
 ## Known Bugs
 
