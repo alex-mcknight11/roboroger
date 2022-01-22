@@ -9,11 +9,10 @@
 - _JavaScript_
 - _HTML_
 - _JQuery_
-- \_ \_
 
 ## Description
 
-_A project from Epicodus used to test different number inputs to give a different result._
+_A project from Epicodus used to test different number inputs to give a different result. Entering a number from 1 to 100 will give a response from "Mr. Roboger" correlating to the number that was put in._
 
 ## Setup/Installation Requirements
 
@@ -29,8 +28,7 @@ Test: It should return the string result to be readable
 
 ## Known Bugs
 
-- _Any known issues_
-- _should go here_
+- _String will not show in User Interface and must instead be accessed through the console_
 
 ## License
 
