@@ -29,6 +29,7 @@ Test: It should return the string result to be readable
 ## Known Bugs
 
 - _String will not show in User Interface and must instead be accessed through the console_
+- _Claims Array is undefined_
 
 ## License
 
