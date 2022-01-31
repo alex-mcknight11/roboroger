@@ -2,12 +2,9 @@
 // let boopInput = '2';
 // let neighborInput = '3';
 
-window.onload = function () {
-	let numberArray = [];
-
 	function checkForMatch(number) {
 		console.log(number);
-		const numberArray = [];
+		let numberArray = [];
 		for (let i = 0; number >= i; i++) {
 			const element = i.toString();
 			if (element.includes('3')) {
@@ -31,7 +28,7 @@ window.onload = function () {
 		$('form').submit(function (event) {
 			event.preventDefault();
 			let numberSubmission = parseInt($('#inputField').val(), 10);
-			console.log(checkForMatch(numberSubmission));
+			checkForMatch(numberSubmission));
 			$('#stringOutput').replaceWith(numberArray);
 		});
 	});
