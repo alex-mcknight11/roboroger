@@ -24,7 +24,7 @@ $(document).ready(function () {
 	$('form').submit(function (event) {
 		event.preventDefault();
 		let numberSubmission = parseInt($('#inputField').val(), 10);
-		checkForMatch(numberSubmission);
-		$('#stringOutput').replaceWith(numberArray);
+		let numberArray = checkForMatch(numberSubmission);
+		$('#stringOutput').text(numberArray);
 	});
 });
